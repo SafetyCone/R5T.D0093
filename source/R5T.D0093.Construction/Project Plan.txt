@@ -1,0 +1,3 @@
+R5T.D0093.Construction - Construction project for ILoggerSynchronicityProvider service..
+
+GOALS:
