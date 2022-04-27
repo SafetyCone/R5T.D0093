@@ -14,7 +14,8 @@ namespace R5T.D0093.I001
         private Synchronicity Synchronicity { get; }
 
 
-        public ConstructorBasedLoggerSynchronicityProvider(Synchronicity synchronicity)
+        public ConstructorBasedLoggerSynchronicityProvider(
+            [NotServiceComponent] Synchronicity synchronicity)
         {
             this.Synchronicity = synchronicity;
         }
