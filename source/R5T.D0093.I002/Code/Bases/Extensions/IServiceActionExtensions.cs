@@ -10,7 +10,7 @@ namespace R5T.D0093.I002
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="LoggerSynchronicityProvider"/> implementation of <see cref="ILoggerSynchronicityProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="LoggerSynchronicityProvider"/> implementation of <see cref="ILoggerSynchronicityProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<ILoggerSynchronicityProvider> AddLoggerSynchronicityProviderAction(this IServiceAction _,
             IServiceAction<IExecutionSynchronicityProvider> executionSynchronicityProviderAction)
